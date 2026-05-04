@@ -1,6 +1,6 @@
 # 🔌 REST and SOAP API testing
 
-### REST API
+### REST API — Demoshopping ([Swagger UI](https://intern.demoshopping.ru/api-docs/))
 
 Протестировала REST API учебного интернет‑магазина https://intern.demoshopping.ru по спецификации [Swagger UI](https://intern.demoshopping.ru/api-docs/). 
 
@@ -17,7 +17,16 @@
 </li>
 </ul>
 
-### SOAP API
+
+### REST API — Swagger Petstore ([Swagger UI](https://petstore.swagger.io/))
+Протестировала публичный REST API **Swagger Petstore** в **Postman** по модулям `pet`, `store`, `user`; добавила переменные коллекции и автопроверки.  
+
+**Материалы**
+- Postman-коллекция (JSON): [Ссылка на файл коллекции](https://drive.google.com/file/d/1y2KQ8vnihapHMXBGA_yeodNrg9CrYD4u/view?usp=sharing)
+- Успешный прогон коллекции (скрин): [Ссылка на скрин Runner](https://drive.google.com/file/d/1LsV1Fgd8LATmL7rN9cREmRJ34Dss91kX/view?usp=sharing)
+
+
+### SOAP API ([WSDL](http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL))
 
 Протестировала публичный SOAP‑веб‑сервис **CountryInfoService** (данные о странах, континентах, языках по [WSDL](http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL)). Собрала в **Postman** коллекцию запросов (**FullCountryInfo**, **ListOfContinentsByName**, **CountryName**, **LanguageName**) с разными входными параметрами (ISO‑коды страны и языка).
 
